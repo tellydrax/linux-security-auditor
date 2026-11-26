@@ -12,8 +12,12 @@ A lightweight Bash security auditing tool designed to inspect Linux servers agai
 
 ## 🚀 Usage
 
-```bash
-git clone [https://github.com/tellydrax/linux-security-auditor.git](https://github.com/tellydrax/linux-security-auditor.git)
-cd linux-security-auditor
-chmod +x audit.sh
-sudo ./audit.sh
+    git clone https://github.com/tellydrax/linux-security-auditor.git
+    cd linux-security-auditor
+    chmod +x audit.sh
+    sudo ./audit.sh
+
+The script outputs results directly in the terminal and saves a timestamped report (`security_audit_YYYYMMDD_HHMMSS.txt`).
+
+## 👤 Author
+**Wariboko Praise** ([@tellydrax](https://github.com/tellydrax)) — Bachelor 3 Cybersécurité & Réseaux | [Portfolio](https://tellydrax.github.io)
